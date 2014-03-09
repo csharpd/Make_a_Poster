@@ -1,26 +1,26 @@
 body {
     text-align:center;
     background-image: url(/images/stardust.png);
-    color:white;
-    font-family: helvetica,Arial;
+    color:grey;
+    font-family: 'Raleway', sans-serif;
     margin:0;
     padding:0;
 }
 
 header {
     padding: 15px;
-    background-color: rgba(255,255,255, 0.7);
-    color:black;
+    background-color: #24566B;
+    color:rgb(189, 195, 199);
     box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
 }
 
 #select-image {
-    background-color:  rgba(255,255,255, 0.3);
+    background-color:#F5EFE0;
   padding: 10px;  
 }
 
 #add-text {
-    background-color: rgba(0,255,255, 0.02);
+    background-color: #B3E3E6;
     padding: 10px;
     box-shadow: 1px 0 3px rgba(0,0,0, 0.3); 
 }
@@ -29,6 +29,7 @@ header {
   width: 600px;
   text-align: center;
 }
+
 
 input, button {
     font-size: 16px;
@@ -44,7 +45,7 @@ input[type="number"] {
 }
 
 footer {
-  background-color: rgba(255,0,255,0.01);
+  background-color:#24566B;
   padding: 10px;  
   text-align: left;
   box-shadow: -1px 0 5px rgba(0,0,0, 0.3);
@@ -60,7 +61,7 @@ footer div {
 }
 
 #style-image {
-    background-color: rgba(255,255,255, 0.7);
+    background-color: #F5EFE0;
     padding: 10px;  
     box-shadow: 1px 0 3px rgba(0,0,0, 0.3); 
 }
@@ -68,7 +69,7 @@ footer div {
 #workspace {
     width: 600px;
     min-height: 300px;
-    border: 5px dashed white;
+    border: 5px dashed #6B245C;
     margin: 0 auto;
 }
 
@@ -97,4 +98,9 @@ footer div {
     font-size: 32px;
     color:black;
     margin:0;
+}
+
+#title {
+   font-family: 'Mr Dafoe', cursive;
+   font-size: 100px;
 }

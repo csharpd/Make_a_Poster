@@ -2,6 +2,8 @@
 <html>
     <head>
          <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+         <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+         <link href='http://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
         <link href="/css/application.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
@@ -11,19 +13,19 @@
     </head>
     <body>
         <header>
-          <h1>Motivational Posters<h1>
+          <h1 id="title">Make a Poster!<h1>
         </header>
     <section id="select-image">
-        <h2>Step 1. Pick an image </h2>
-        <p>Enter the keyword to search for images </p>
-        <input id="search-term" type="text">
+          <h2>Step 1. Pick an image </h2>
+          <p>Enter the keyword to search for images </p>
+          <input id="search-term" type="text">
             <button id="go-search">Go!</button>
-        <div id="search-results"></div>
-        <div id="branding"></div>
+          <div id="search-results"></div>
+          <div id="branding"></div>
     </section>
     <section id="add-text">
-        <h2>Step 2. Add a message</h2>
-        <input id="text" type="text" value="Curiosity killed the cat">
+          <h2>Step 2. Add a message</h2>
+          <input id="text" type="text" value="Type something inspiring">
     </section>
     <section id="style-image">
         <h2>Step 3. Style it!</h2>
@@ -31,28 +33,28 @@
             <p id="caption"></p>
         </div>
         <div id="controls">
-            Left: <input type="number" value="10" id="left">
+            Left: <input type="number" value="60" id="left">
             Top: <input type="number" value="10" id="top">
-            Width: <input type="number" value="10" id="width">
-            Size: <input type="number" value="10" id="size">
+            Width: <input type="number" value="456" id="width">
+            Size: <input type="number" value="60" id="size">
             Colour: <select id="colour">
-                      <option>red</option>
-                      <option>green</option>
-                      <option>white</option>
-                      <option>black</option>
-                      <option>blue</option>
-                      <option>yellow</option>
-                      <option>gray</option>
-                      <option>orange</option>
+                      <option>Red</option>
+                      <option>Green</option>
+                      <option>White</option>
+                      <option>Black</option>
+                      <option>Blue</option>
+                      <option>Yellow</option>
+                      <option>Gray</option>
+                      <option>Orange</option>
                       </select>
             Align: <select id="align">
-                      <option>right</option>
-                      <option>center</option>
-                      <option>left</option>
+                      <option>Right</option>
+                      <option>Center</option>
+                      <option>Left</option>
                     </select>
         </div>
         <div id="twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-text="Made this at @makersacademy over the weekend!" data-via="ThisIsChloeD">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-text="Today I built this @makersacademy" data-via="ThisIsChloeD">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         </div>
     </section>
@@ -60,8 +62,8 @@
     <footer>
         <a href="http://www.makersacademy.com"><img src="http://www.makersacademy.com/images/logo.png"></a>
   <div>
-    I built this page during a weekend course at 
-    <a href="http://www.makersacademy.com">Makers Academy, a highly selective 12 week coding course in London</a>.
+    I built this entire thing during a weekend course at 
+    <a href="http://www.makersacademy.com">Makers Academy</a>.
   </div>
   <div>
     This page uses Google Image search, Ruby, Sinatra, Javascript, jQuery, HTML and CSS.
